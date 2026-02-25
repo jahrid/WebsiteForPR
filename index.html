@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://db.onlinewebfonts.com/c/2d57f676e3d6955778fb8acac0176b9a?family=Eina01-Bold" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMSC - School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/79c53f7fa8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+ <!----------------------------------- HEADER SECTION --------------------------------->
+<header class="header"> 
+  <div class="top-card">
+    <div class="header-left">
+      <img src="assets/MessiahLogo.png" alt="logo">
+    </div>
+    <div class="header-center">
+      <h1>MY MESSIAH SCHOOL OF CAVITE</h1>
+    </div>
+    <div class="header-right">
+      <div class="socials">
+        <a href="https://www.facebook.com/mymessiahschoolofcavite?rdid=51qiPphgapQczvBl&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17wGLEcqpm%2F#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>  
+         <a href="https://www.google.com/search?kgmid=/g/11bx1ylml2&hl=en-PH&q=My+Messiah+School+Of+Cavite,+Inc.+-+Main+Campus&shndl=30&source=sh/x/loc/osrp/m1/2&kgs=64ce121db8c71245&shem=shrtsdl&utm_source=shrtsdl,sh/x/loc/osrp/m1/2&safe=active&ssui=on">
+          <i class="fa-brands fa-google"></i>
+        </a>  
+      </div>
+    </div>
+  </div>
+
+ <!--------------------------- HEADER. SEARCH BAR AND NAVBAR SECTION -------------------->
+  <nav class="navbar">
+    <div class="nav-wrapper">
+      <div class="nav-search">
+        <div class="search-container">
+          <label class="search-label" for="searchInput">Search School FAQs</label>
+          <input
+          type="text"
+          id="searchInput"
+          class="search-box"
+          placeholder="How do I enroll?"
+          />
+          <div class="search-dropdown" id="search-dropdown"></div>
+        </div>
+      </div>
+
+      <button class="hamburger" id="hamburger">&#9776;</button>
+      <ul class="menu" id="nav-menu">
+        <a href="home.html" class="homeBtn">Home</a>
+        <li class="dropdown">
+          <a href="#">Other ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="dropDownMenu/others/history.html">History</a></li>
+            <li><a href="dropDownMenu/others/mission.html">Mission</a></li>
+            <li><a href="dropDownMenu/others/vision.html">Vision</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Life@MMSC ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Student Life</a></li>
+            <li><a href="dropDownMenu/lifeatmymessiah/organizations.html">Organizations</a></li>
+            <li><a href="dropDownMenu/lifeatmymessiah/facilities.html">Facilities</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Administration ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Officials</a></li>
+            <li><a href="#">Offices</a></li>
+          </ul>
+        </li>  
+
+        <li class="dropdown">
+          <a href="#">Admission ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Requirements</a></li>
+            <li><a href="#">How to Apply</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+</header>
+ <!-----------------------------------HEADER SECTION END ---------------------------->
+
+
+ <!--------------------------------- BODY SECTION --------------------------->
+
+ <!------BODY. HOME SECTION----->
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Welcome to My Messiah School Of Cavite</h1>
+    <p>Empowering minds, shaping futures.</p>
+    <button class="cta-button">Enroll Now</button>
+  </div>
+</section>
+ <!----- BODY. ABOUT US SECTION ----->
+<section id="about" class="about-image-section reveal">
+  <div class="about-image-wrapper">
+    <img src="assets/ABOUTUS.jpeg" alt="About Image">
+  </div>
+</section>
+
+<!-----BODY. COURSES SECTION ----->
+<section id="courses" class="courses reveal">
+  <div class="container">
+    <h2>Available Strands</h2>
+
+    <div class="course-grid">
+      <div class="course-card">
+        <h3>STEM</h3>
+        <p>Analytical thinking, problem-solving skills, and innovation.</p>
+      </div>
+      
+      <div class="course-card">
+        <h3>ASSH</h3>
+        <p>Understanding human behavior, culture, and society.</p>
+      </div>
+      
+      <div class="course-card">
+        <h3>BE</h3>
+        <p>Business, entrepreneurship, accounting, and management.</p>
+       </div>
+
+      <div class="course-card">
+        <h3>HE</h3>
+        <p>Hospitality, culinary arts, caregiving, and entrepreneurship.</p>
+        </div>
+
+      <div class="course-card">
+        <h3>ICT</h3>
+        <p>Practical skills in computer systems, programming, networking, and digital media.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ <!-----BODY. BRANCHES SECTION ----->
+<section class="courses-branches reveal">
+  <div class="container-branches">
+    <h2>BRANCHES</h2>
+
+    <div class="course-grid">
+      <div class="course-card branch-1">
+        <div class="branch-label">Main Campus</div>
+        <img src="assets/Left-Side-Main.png" alt="Main Campus" class="main-branch-image">
+      </div> 
+
+      <div class="course-card branch-2">
+        <div class="branch-label">Delas Alas Campus</div>
+        <img src="assets/Photo.jpg" alt="DELAS ALAS CAMPUS" class="Delas-Alas-branch-image">
+      </div>
+    </div>
+
+  </div>
+</section>
+ <!-----------------------------------BODY SECTION END ---------------------------->
+
+ <!--------------------------------- FOOTER SECTION --------------------------->
+<footer id="contact">
+  <div class="container">
+    <p>&copy; 2026 MMSC Academy. All rights reserved.</p>
+    <p>Contact: info@MMSCacademy.edu | Phone: (123) 456-7890</p>
+  </div>
+</footer>
+<!-----------------------------------FOOTER SECTION END ---------------------------->
+
+    <script src="main.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
+      <script>
+        window.botpressWebChat.init({
+          botname: "MMSC Assistant",
+          showWidget: true
+        });
+      </script>
+    <script src="https://files.bpcontent.cloud/2026/01/16/07/20260116071614-LX0DM3TV.js" defer></script>
+</body> 
+</html>
